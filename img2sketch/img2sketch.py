@@ -49,4 +49,5 @@ def main(argv):
    cv2.imwrite(outputfile,pencil_photo)
 
 if __name__ == "__main__":
-   main(sys.argv[1:])
+   main(sys.argv[0:]) #for using as a pypi package
+   #main(sys.argv[1:]) for downloading .py file and executing
